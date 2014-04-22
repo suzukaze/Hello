@@ -7,6 +7,7 @@
 //
 
 #import "KWBAppDelegate.h"
+#import "ViewController.h"
 
 @implementation KWBAppDelegate
 
@@ -16,6 +17,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //ビューの生成
+    self.window.rootViewController=[[ViewController alloc] init];
+
     return YES;
 }
 

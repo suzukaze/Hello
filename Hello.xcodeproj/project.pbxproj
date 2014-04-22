@@ -19,6 +19,8 @@
 		7A425F9A19064C1400BB6573 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A425F8219064C1400BB6573 /* UIKit.framework */; };
 		7A425FA219064C1400BB6573 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A425FA019064C1400BB6573 /* InfoPlist.strings */; };
 		7A425FA419064C1400BB6573 /* HelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A425FA319064C1400BB6573 /* HelloTests.m */; };
+		7A425FAF19064DAE00BB6573 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A425FAE19064DAE00BB6573 /* ViewController.m */; };
+		7A425FB219064E1B00BB6573 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A425FB119064E1B00BB6573 /* HelloWorld.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		7A425F9F19064C1400BB6573 /* HelloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloTests-Info.plist"; sourceTree = "<group>"; };
 		7A425FA119064C1400BB6573 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A425FA319064C1400BB6573 /* HelloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloTests.m; sourceTree = "<group>"; };
+		7A425FAD19064DAE00BB6573 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A425FAE19064DAE00BB6573 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A425FB019064E1B00BB6573 /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
+		7A425FB119064E1B00BB6573 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,10 @@
 				7A425F8E19064C1400BB6573 /* KWBAppDelegate.m */,
 				7A425F9019064C1400BB6573 /* Images.xcassets */,
 				7A425F8519064C1400BB6573 /* Supporting Files */,
+				7A425FAD19064DAE00BB6573 /* ViewController.h */,
+				7A425FAE19064DAE00BB6573 /* ViewController.m */,
+				7A425FB019064E1B00BB6573 /* HelloWorld.h */,
+				7A425FB119064E1B00BB6573 /* HelloWorld.m */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -240,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A425FAF19064DAE00BB6573 /* ViewController.m in Sources */,
 				7A425F8B19064C1400BB6573 /* main.m in Sources */,
 				7A425F8F19064C1400BB6573 /* KWBAppDelegate.m in Sources */,
+				7A425FB219064E1B00BB6573 /* HelloWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
