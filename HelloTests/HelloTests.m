@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Util.h"
 
 @interface HelloTests : XCTestCase
 
@@ -28,7 +29,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssertTrue([Util isMutipleOf3:9], "3の倍数ではありません");
 }
 
 @end

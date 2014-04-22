@@ -34,12 +34,12 @@
     [self.view addSubview:helloWorld];
 
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 100)];
-    label.text = @"ほげほげ";
+    label.text = @"HelloWorld";
     [self.view addSubview:label];
     
     UIFont *font = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:26.0f];
     UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(0, 100, 320, 100)];
-    label2.text = @"hogehoge";
+    label2.text = @"こんにちは";
     label2.font = font;
     label2.textColor = [UIColor whiteColor];
     label2.backgroundColor = [UIColor redColor];

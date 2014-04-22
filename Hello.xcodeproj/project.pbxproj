@@ -21,6 +21,7 @@
 		7A425FA419064C1400BB6573 /* HelloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A425FA319064C1400BB6573 /* HelloTests.m */; };
 		7A425FAF19064DAE00BB6573 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A425FAE19064DAE00BB6573 /* ViewController.m */; };
 		7A425FB219064E1B00BB6573 /* HelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A425FB119064E1B00BB6573 /* HelloWorld.m */; };
+		7A425FB5190659BB00BB6573 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A425FB4190659BB00BB6573 /* Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		7A425FAE19064DAE00BB6573 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A425FB019064E1B00BB6573 /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
 		7A425FB119064E1B00BB6573 /* HelloWorld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorld.m; sourceTree = "<group>"; };
+		7A425FB3190659BB00BB6573 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		7A425FB4190659BB00BB6573 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				7A425FAE19064DAE00BB6573 /* ViewController.m */,
 				7A425FB019064E1B00BB6573 /* HelloWorld.h */,
 				7A425FB119064E1B00BB6573 /* HelloWorld.m */,
+				7A425FB3190659BB00BB6573 /* Util.h */,
+				7A425FB4190659BB00BB6573 /* Util.m */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A425FB5190659BB00BB6573 /* Util.m in Sources */,
 				7A425FAF19064DAE00BB6573 /* ViewController.m in Sources */,
 				7A425F8B19064C1400BB6573 /* main.m in Sources */,
 				7A425F8F19064C1400BB6573 /* KWBAppDelegate.m in Sources */,
