@@ -29,7 +29,7 @@
 
 - (void)testExample
 {
-    XCTAssertTrue([Util isMutipleOf3:9], "3の倍数ではありません");
+    XCTAssertTrue([Util isMutipleOf3:8], "3の倍数ではありません");
 }
 
 @end
