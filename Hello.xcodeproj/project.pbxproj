@@ -12,7 +12,7 @@
 		7A425F8319064C1400BB6573 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A425F8219064C1400BB6573 /* UIKit.framework */; };
 		7A425F8919064C1400BB6573 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A425F8719064C1400BB6573 /* InfoPlist.strings */; };
 		7A425F8B19064C1400BB6573 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A425F8A19064C1400BB6573 /* main.m */; };
-		7A425F8F19064C1400BB6573 /* KWBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A425F8E19064C1400BB6573 /* KWBAppDelegate.m */; };
+		7A425F8F19064C1400BB6573 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A425F8E19064C1400BB6573 /* AppDelegate.m */; };
 		7A425F9119064C1400BB6573 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A425F9019064C1400BB6573 /* Images.xcassets */; };
 		7A425F9819064C1400BB6573 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A425F9719064C1400BB6573 /* XCTest.framework */; };
 		7A425F9919064C1400BB6573 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A425F7E19064C1400BB6573 /* Foundation.framework */; };
@@ -43,8 +43,8 @@
 		7A425F8819064C1400BB6573 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A425F8A19064C1400BB6573 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A425F8C19064C1400BB6573 /* Hello-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello-Prefix.pch"; sourceTree = "<group>"; };
-		7A425F8D19064C1400BB6573 /* KWBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWBAppDelegate.h; sourceTree = "<group>"; };
-		7A425F8E19064C1400BB6573 /* KWBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWBAppDelegate.m; sourceTree = "<group>"; };
+		7A425F8D19064C1400BB6573 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A425F8E19064C1400BB6573 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7A425F9019064C1400BB6573 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7A425F9619064C1400BB6573 /* HelloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A425F9719064C1400BB6573 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -116,8 +116,8 @@
 		7A425F8419064C1400BB6573 /* Hello */ = {
 			isa = PBXGroup;
 			children = (
-				7A425F8D19064C1400BB6573 /* KWBAppDelegate.h */,
-				7A425F8E19064C1400BB6573 /* KWBAppDelegate.m */,
+				7A425F8D19064C1400BB6573 /* AppDelegate.h */,
+				7A425F8E19064C1400BB6573 /* AppDelegate.m */,
 				7A425F9019064C1400BB6573 /* Images.xcassets */,
 				7A425F8519064C1400BB6573 /* Supporting Files */,
 				7A425FAD19064DAE00BB6573 /* ViewController.h */,
@@ -258,7 +258,7 @@
 				7A425FB5190659BB00BB6573 /* Util.m in Sources */,
 				7A425FAF19064DAE00BB6573 /* ViewController.m in Sources */,
 				7A425F8B19064C1400BB6573 /* main.m in Sources */,
-				7A425F8F19064C1400BB6573 /* KWBAppDelegate.m in Sources */,
+				7A425F8F19064C1400BB6573 /* AppDelegate.m in Sources */,
 				7A425FB219064E1B00BB6573 /* HelloWorld.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +458,7 @@
 				7A425FA919064C1400BB6573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A425FAA19064C1400BB6573 /* Build configuration list for PBXNativeTarget "HelloTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +467,7 @@
 				7A425FAC19064C1400BB6573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

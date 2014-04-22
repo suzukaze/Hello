@@ -6,10 +6,10 @@
 //  Copyright (c) 2014年 ___FULLUSERNAME___. All rights reserved.
 //
 
-#import "KWBAppDelegate.h"
+#import "AppDelegate.h"
 #import "ViewController.h"
 
-@implementation KWBAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
